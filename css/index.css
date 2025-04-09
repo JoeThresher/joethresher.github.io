@@ -1,1 +1,31 @@
 /* Custom CSS that overrides Pico goes here! */
+
+header {
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  -webkit-backdrop-filter: blur(1rem);
+  backdrop-filter: blur(1rem);
+  background-color: var(--pico-background-color);
+  transition: border-top-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+footer {
+  background-color: var(--pico-muted-color);
+  text-align: center;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.introduction {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.techspecs {
+  text-align: center;
+  margin-top: 6rem;
+}

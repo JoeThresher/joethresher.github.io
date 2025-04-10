@@ -29,3 +29,7 @@ footer {
   text-align: center;
   margin-top: 6rem;
 }
+
+#theme-toggle {
+  color: red;
+}

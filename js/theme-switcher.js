@@ -1,23 +1,23 @@
-// Select the toggle button
-const themeToggleBtn = document.getElementById("theme-toggle");
+// Taken from https://lukelowrey.com/css-variable-theme-switcher/
 
-// Check local storage for theme preference
-const currentTheme = localStorage.getItem("theme") || "light-theme";
-document.body.classList.add(currentTheme);
+let toggle = document.getElementById("theme-toggle");
 
-// Function to switch themes
-function toggleTheme() {
-  const newTheme = document.body.classList.contains("light-theme")
-    ? "dark-theme"
-    : "light-theme";
+let storedTheme =
+  localStorage.getItem("theme") ||
+  (window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light");
+if (storedTheme)
+  document.documentElement.setAttribute("data-theme", storedTheme);
 
-  // Remove the existing theme class and add the new one
-  document.body.classList.remove("light-theme", "dark-theme");
-  document.body.classList.add(newTheme);
+toggle.onclick = function () {
+  let currentTheme = document.documentElement.getAttribute("data-theme");
+  let targetTheme = "light";
 
-  // Save the user's preference to local storage
-  localStorage.setItem("theme", newTheme);
-}
+  if (currentTheme === "light") {
+    targetTheme = "dark";
+  }
 
-// Add event listener to the toggle button
-themeToggleBtn.addEventListener("click", toggleTheme);
+  document.documentElement.setAttribute("data-theme", targetTheme);
+  localStorage.setItem("theme", targetTheme);
+};

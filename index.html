@@ -16,12 +16,12 @@
     <header class="container-fluid">
       <nav>
         <ul>
-          <li><strong>Joe's GitHub</strong></li>
+          <li><strong>Joe's GitHub (work in progress)</strong></li>
         </ul>
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Products</a></li>
+          <li><a href="#about" class="contrast">About</a></li>
+          <li><a href="#" class="contrast">Something</a></li>
+          <li><a href="#" class="contrast">Something Else</a></li>
           <li>
             <button
               class="theme-toggle"
@@ -58,33 +58,51 @@
     <main>
       <!-- HERO -->
       <section class="hero container">
-        <h1>Joe's GitHub</h1>
-        <h4>Wow, look at that subheading</h4>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, quae
-          quos nulla doloribus pariatur velit reprehenderit molestiae debitis
-          distinctio expedita? Molestiae harum doloremque a fugiat, cum esse
-          quia odio perferendis!
-        </p>
+        <div class="grid">
+          <div class="hero-text">
+            <h1>Joe's GitHub</h1>
+            <h4>Wow, look at that subheading</h4>
+          </div>
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1742787584125-d94d44334047?q=80&w=3322&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Placeholder image of a fox"
+              class="hero-image"
+            />
+          </div>
+        </div>
       </section>
 
       <!-- INTRODUCTION -->
-      <section class="introduction container">
+      <section class="introduction container" id="about">
         <p>
-          This is going to be a nice big section where I talk about myself a
-          little bit. Mostly just words on a page, nothing crazy. Lorem ipsum
-          dolor, sit amet consectetur adipisicing elit. Et cum cupiditate
-          aliquam deserunt excepturi labore, tempore a adipisci numquam
-          provident optio rerum cumque, veniam voluptates magnam corporis iste
-          eaque. Ut.
+          Hello! I'm Joe, a software engineer with a passion for free and open
+          source software. This page is very much a work in progress. I'm going
+          to write more text here at some point. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Recusandae fugit magnam, enim, qui
+          necessitatibus minus placeat beatae itaque non nesciunt, sunt
+          blanditiis voluptatum assumenda! Aliquam id cum nobis cupiditate?
+          Laudantium!
         </p>
       </section>
 
       <!-- TECHNICAL QUALIFICATIONS -->
       <section class="techspecs container">
-        <h1>Technical Qualifications</h1>
+        <h1>Technical Experience</h1>
         <div class="grid">
-          <article>Card 1</article>
+          <article>
+            <div class="grid">
+              <div>
+                <img
+                  src="/assets/AWS-Logo.svg"
+                  class="card-image"
+                  alt="AWS Logo"
+                />
+              </div>
+              <h5>AWS</h5>
+            </div>
+            <p>Sample text about AWS experience</p>
+          </article>
           <article>Card 2</article>
           <article>Card 3</article>
         </div>
@@ -101,7 +119,7 @@
     <!-- FOOTER -->
     <footer class="container-fluid">
       <p class="inline">Made with</p>
-      <a href="https://picocss.com/">Pico CSS</a>
+      <a href="https://picocss.com/" class="contrast">Pico CSS</a>
       <p class="inline">✨</p>
     </footer>
 

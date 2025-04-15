@@ -1,5 +1,7 @@
 /* Custom CSS that overrides Pico goes here! */
 
+/* HEADER */
+
 header {
   z-index: 2;
   position: sticky;
@@ -10,30 +12,62 @@ header {
   /* transition: border-top-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out; */
 }
 
-footer {
-  background-color: var(--pico-switch-background-color);
-  text-align: center;
+#theme-toggle {
+  color: var(--pico-contrast);
 }
+
+/* HERO */
 
 .hero {
   text-align: center;
   margin-top: 4rem;
 }
 
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-image {
+  border-radius: 50%;
+  width: 500px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* INTRODUCTION */
+
 .introduction {
   text-align: center;
   margin-top: 6rem;
 }
+
+/* TECHSPECS */
 
 .techspecs {
   text-align: center;
   margin-top: 6rem;
 }
 
-#theme-toggle {
-  color: var(--pico-contrast);
+.card-image {
+  width: 100px;
+  height: auto;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: var(--pico-switch-background-color);
+  text-align: center;
+}
+
+/* MISC */
 
 .inline {
   display: inline;
+}
+
+.grid {
+  margin-bottom: var(--pico-typography-spacing-vertical);
 }

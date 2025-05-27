@@ -1,6 +1,6 @@
 # joethresher.github.io
 
-This template should help get you started developing with Vue 3 in Vite.
+This repo will be a landing page for my GitHub profile. I am using it to learn TailwindCSS
 
 ## Recommended IDE Setup
 

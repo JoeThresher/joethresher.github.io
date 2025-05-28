@@ -1,10 +1,10 @@
 <template>
-  <footer class="body-font text-gray-600">
+  <footer class="body-font">
     <div
       class="container mx-auto flex flex-col items-center px-5 py-8 sm:flex-row"
     >
       <a
-        class="title-font flex items-center justify-center font-medium text-gray-900 md:justify-start"
+        class="title-font flex items-center justify-center font-medium md:justify-start"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -23,12 +23,12 @@
         <span class="ml-3 text-xl">Tailblocks</span>
       </a>
       <p
-        class="mt-4 text-sm text-gray-500 sm:mt-0 sm:ml-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:pl-4"
+        class="mt-4 text-sm sm:mt-0 sm:ml-4 sm:border-l-2 sm:border-base-200 sm:py-2 sm:pl-4"
       >
         © 2020 Tailblocks —
         <a
           href="https://twitter.com/knyttneve"
-          class="ml-1 text-gray-600"
+          class="ml-1"
           rel="noopener noreferrer"
           target="_blank"
           >@knyttneve</a
@@ -37,7 +37,7 @@
       <span
         class="mt-4 inline-flex justify-center sm:mt-0 sm:ml-auto sm:justify-start"
       >
-        <a class="text-gray-500">
+        <a>
           <svg
             fill="currentColor"
             stroke-linecap="round"
@@ -51,7 +51,7 @@
             ></path>
           </svg>
         </a>
-        <a class="ml-3 text-gray-500">
+        <a class="ml-3">
           <svg
             fill="currentColor"
             stroke-linecap="round"
@@ -65,7 +65,7 @@
             ></path>
           </svg>
         </a>
-        <a class="ml-3 text-gray-500">
+        <a class="ml-3">
           <svg
             fill="none"
             stroke="currentColor"
@@ -81,7 +81,7 @@
             ></path>
           </svg>
         </a>
-        <a class="ml-3 text-gray-500">
+        <a class="ml-3">
           <svg
             fill="currentColor"
             stroke="currentColor"

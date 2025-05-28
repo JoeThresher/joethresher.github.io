@@ -1,16 +1,14 @@
 <script setup></script>
 
 <template>
-  <section class="body-font text-gray-600">
+  <section class="body-font">
     <div
       class="container mx-auto flex flex-col items-center px-5 py-24 md:flex-row"
     >
       <div
         class="mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24"
       >
-        <h1
-          class="title-font mb-4 text-3xl font-medium text-gray-900 sm:text-4xl"
-        >
+        <h1 class="title-font mb-4 text-3xl font-medium sm:text-4xl">
           Before they sold out <br class="hidden lg:inline-block" />readymade
           gluten
         </h1>

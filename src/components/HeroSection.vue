@@ -20,12 +20,12 @@
         </p>
         <div class="flex justify-center">
           <button
-            class="inline-flex rounded border-0 bg-indigo-500 px-6 py-2 text-lg text-white hover:bg-indigo-600 focus:outline-none"
+            class="inline-flex rounded border-0 bg-primary px-6 py-2 text-lg text-primary-content hover:bg-primary/80 focus:outline-none"
           >
             Button
           </button>
           <button
-            class="ml-4 inline-flex rounded border-0 bg-gray-100 px-6 py-2 text-lg text-gray-700 hover:bg-gray-200 focus:outline-none"
+            class="ml-4 inline-flex rounded border-0 bg-base-200 px-6 py-2 text-lg text-base-content hover:bg-base-300 focus:outline-none"
           >
             Button
           </button>

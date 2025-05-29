@@ -13,7 +13,7 @@
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="2"
-          class="h-10 w-10 rounded-full bg-indigo-500 p-2 text-white"
+          class="h-10 w-10 rounded-full bg-primary p-2 text-primary-content"
           viewBox="0 0 24 24"
         >
           <path

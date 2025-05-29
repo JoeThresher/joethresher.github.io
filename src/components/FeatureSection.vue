@@ -3,7 +3,7 @@
     <div class="container mx-auto px-5 py-24">
       <div class="mb-20 flex w-full flex-col text-center">
         <h2
-          class="title-font mb-1 text-xs font-medium tracking-widest text-indigo-500"
+          class="title-font mb-1 text-xs font-medium tracking-widest text-primary"
         >
           ROOF PARTY POLAROID
         </h2>
@@ -16,7 +16,7 @@
           <div class="flex h-full flex-col rounded-lg bg-base-200 p-8">
             <div class="mb-3 flex items-center">
               <div
-                class="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-indigo-500 text-white"
+                class="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary text-primary-content"
               >
                 <svg
                   fill="none"
@@ -37,7 +37,7 @@
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a class="mt-3 inline-flex items-center text-indigo-500"
+              <a class="mt-3 inline-flex items-center text-primary"
                 >Learn More
                 <svg
                   fill="none"
@@ -58,7 +58,7 @@
           <div class="flex h-full flex-col rounded-lg bg-base-200 p-8">
             <div class="mb-3 flex items-center">
               <div
-                class="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-indigo-500 text-white"
+                class="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary text-primary-content"
               >
                 <svg
                   fill="none"
@@ -80,7 +80,7 @@
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a class="mt-3 inline-flex items-center text-indigo-500"
+              <a class="mt-3 inline-flex items-center text-primary"
                 >Learn More
                 <svg
                   fill="none"
@@ -101,7 +101,7 @@
           <div class="flex h-full flex-col rounded-lg bg-base-200 p-8">
             <div class="mb-3 flex items-center">
               <div
-                class="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-indigo-500 text-white"
+                class="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary text-primary-content"
               >
                 <svg
                   fill="none"
@@ -126,7 +126,7 @@
                 Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                 taxidermy. Gastropub indxgo juice poutine.
               </p>
-              <a class="mt-3 inline-flex items-center text-indigo-500"
+              <a class="mt-3 inline-flex items-center text-primary"
                 >Learn More
                 <svg
                   fill="none"

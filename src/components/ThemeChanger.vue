@@ -15,10 +15,10 @@ export default {
   <label class="swap swap-rotate">
     <!-- this hidden checkbox controls the state -->
     <input
-      data-toggle-theme="dark"
+      data-toggle-theme="night"
       type="checkbox"
       class="theme-controller"
-      value="dark"
+      value="night"
     />
 
     <!-- sun icon -->

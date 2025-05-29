@@ -6,17 +6,19 @@
       class="container mx-auto flex flex-col items-center px-5 py-24 md:flex-row"
     >
       <div
-        class="mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24"
+        class="mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:justify-evenly md:pr-16 md:text-left lg:flex-grow lg:pr-24"
       >
         <h1 class="title-font mb-4 text-3xl font-medium sm:text-4xl">
-          Before they sold out <br class="hidden lg:inline-block" />readymade
-          gluten
+          Joe Thresher's <br class="hidden lg:inline-block" />GitHub
         </h1>
-        <p class="mb-8 leading-relaxed">
-          Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-          plant cold-pressed tacos poke beard tote bag. Heirloom echo park
-          mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon
-          try-hard chambray.
+        <p class="mb-8 leading-relaxed md:max-w-xl">
+          Hello! I'm Joe, a software engineer with a passion for free and open
+          source software. This page is very much a work in progress. I'm going
+          to write more text here at some point. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Recusandae fugit magnam, enim, qui
+          necessitatibus minus placeat beatae itaque non nesciunt, sunt
+          blanditiis voluptatum assumenda! Aliquam id cum nobis cupiditate?
+          Laudantium!
         </p>
         <div class="flex justify-center">
           <button

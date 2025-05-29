@@ -10,7 +10,7 @@ import ThemeChanger from "./ThemeChanger.vue";
     >
       <a class="title-font mb-4 flex items-center font-medium md:mb-0">
         <Bird :size="32" />
-        <span class="ml-3 text-xl">Tailblocks</span>
+        <span class="ml-3 text-xl">Joe's GitHub</span>
       </a>
       <nav
         class="flex flex-wrap items-center justify-center text-base md:ml-auto"

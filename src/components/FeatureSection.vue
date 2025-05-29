@@ -1,3 +1,7 @@
+<script setup>
+import { Server, Terminal } from "lucide-vue-next";
+</script>
+
 <template>
   <section class="body-font">
     <div class="container mx-auto px-5 py-24">
@@ -8,7 +12,7 @@
           ROOF PARTY POLAROID
         </h2>
         <h1 class="title-font text-2xl font-medium sm:text-3xl">
-          Master Cleanse Reliac Heirloom
+          Technical Experience
         </h1>
       </div>
       <div class="-m-4 flex flex-wrap">
@@ -18,24 +22,15 @@
               <div
                 class="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary text-primary-content"
               >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="h-5 w-5"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
+                <Server />
               </div>
-              <h2 class="title-font text-lg font-medium">Shooting Stars</h2>
+              <h2 class="title-font text-lg font-medium">Cloud and Server</h2>
             </div>
             <div class="flex-grow">
               <p class="text-base leading-relaxed">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Certified AWS Cloud Practitioner, homelabber, and Linux
+                enthusiast. Experience working with Terraform and Docker for
+                infrastructure management and deployment.
               </p>
               <a class="mt-3 inline-flex items-center text-primary"
                 >Learn More
@@ -60,25 +55,16 @@
               <div
                 class="mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary text-primary-content"
               >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="h-5 w-5"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
+                <Terminal />
               </div>
-              <h2 class="title-font text-lg font-medium">The Catalyzer</h2>
+              <h2 class="title-font text-lg font-medium">
+                Full Stack Development
+              </h2>
             </div>
             <div class="flex-grow">
               <p class="text-base leading-relaxed">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Experience with both frontend and backend development using
+                modern web technologies.
               </p>
               <a class="mt-3 inline-flex items-center text-primary"
                 >Learn More
@@ -119,7 +105,7 @@
                   ></path>
                 </svg>
               </div>
-              <h2 class="title-font text-lg font-medium">Neptune</h2>
+              <h2 class="title-font text-lg font-medium">Some Other Thing</h2>
             </div>
             <div class="flex-grow">
               <p class="text-base leading-relaxed">

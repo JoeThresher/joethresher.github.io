@@ -25,7 +25,7 @@
       <p
         class="mt-4 text-sm sm:mt-0 sm:ml-4 sm:border-l-2 sm:border-base-200 sm:py-2 sm:pl-4"
       >
-        © 2020 Tailblocks —
+        Made using Tailblocks —
         <a
           href="https://twitter.com/knyttneve"
           class="ml-1"

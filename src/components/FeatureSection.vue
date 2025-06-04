@@ -14,7 +14,7 @@ function getWorkExperienceYears() {
 </script>
 
 <template>
-  <section class="body-font">
+  <section class="body-font" id="technical-experience">
     <div class="container mx-auto px-5 py-24">
       <div class="mb-20 flex w-full flex-col text-center">
         <h2

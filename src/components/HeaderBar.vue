@@ -1,6 +1,13 @@
 <script setup>
+// import { ref } from "vue";
 import { Bird } from "lucide-vue-next";
 import ThemeChanger from "./ThemeChanger.vue";
+
+// const technicalExperience = ref(null);
+
+// function scrollTo() {
+//   technicalExperience.value.scrollIntoView({ behavior: "smooth" });
+// }
 </script>
 
 <template>
@@ -15,10 +22,19 @@ import ThemeChanger from "./ThemeChanger.vue";
       <nav
         class="flex flex-wrap items-center justify-center text-base md:ml-auto"
       >
-        <a class="mr-5 hover:text-neutral-500">First Link</a>
-        <a class="mr-5 hover:text-neutral-500">Second Link</a>
+        <a class="mr-5 hover:text-neutral-500">About</a>
+        <a href="#technical-experience" class="mr-5 hover:text-neutral-500"
+          >Experience</a
+        >
         <a class="mr-5 hover:text-neutral-500">Third Link</a>
-        <a class="mr-5 hover:text-neutral-500">Fourth Link</a>
+        <a
+          href="https://www.linkedin.com/in/josephthresher/"
+          target="_blank"
+          rel="noopener noreferrer"
+          noreferrer
+          class="mr-5 hover:text-neutral-500"
+          >LinkedIn</a
+        >
       </nav>
       <ThemeChanger />
     </div>

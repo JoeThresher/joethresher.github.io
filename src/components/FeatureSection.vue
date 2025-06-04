@@ -1,5 +1,16 @@
 <script setup>
 import { Server, Terminal } from "lucide-vue-next";
+
+const workExperienceYears = getWorkExperienceYears();
+
+function getWorkExperienceYears() {
+  // returns the number of years since I began working in tech
+  // starting my first tech job on July 20, 2020
+  const startDate = new Date(2020, 6, 20).getTime();
+  const currentDate = new Date().getTime();
+  const diff = currentDate - startDate;
+  return Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
+}
 </script>
 
 <template>
@@ -9,7 +20,7 @@ import { Server, Terminal } from "lucide-vue-next";
         <h2
           class="title-font mb-1 text-xs font-medium tracking-widest text-primary"
         >
-          ROOF PARTY POLAROID
+          {{ workExperienceYears }} YEARS WORK EXPERIENCE
         </h2>
         <h1 class="title-font text-2xl font-medium sm:text-3xl">
           Technical Experience
